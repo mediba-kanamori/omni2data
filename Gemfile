@@ -7,5 +7,5 @@ gem 'middleman', '~>3.1.0.rc.2'
 # Live-reloading plugin
 gem 'middleman-livereload', '~> 3.1.0'
 
-# For faster file watcher updates:
-# gem 'wdm', '~> 0.1.0') # Windows
+# Slim-lang
+gem 'slim', '~> 2.0.0'
