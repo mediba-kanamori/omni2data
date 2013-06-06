@@ -45,6 +45,11 @@ activate :livereload
 #   end
 # end
 
+# Google analytics
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-41336003-2'
+end
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
